@@ -5,9 +5,23 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite_LeftPlayer</sprite>
+    <sprite>sprites\sprite_RightPlayer</sprite>
+    <sprite>sprites\sprite_StandLeftPlayer</sprite>
+    <sprite>sprites\sprite_StandRightPlayer</sprite>
+    <sprite>sprites\Test</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\WorldMap</background>
+    <background>background\background1</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <objects name="objects"/>
+  <rooms name="rooms">
+    <room>rooms\room2</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
