@@ -10,18 +10,33 @@
     <sprite>sprites\sprite_RightPlayer</sprite>
     <sprite>sprites\sprite_StandLeftPlayer</sprite>
     <sprite>sprites\sprite_StandRightPlayer</sprite>
-    <sprite>sprites\Test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\WorldMap</background>
-    <background>background\background1</background>
+    <backgrounds name="LocalMaps">
+      <background>background\SolAbbey_1</background>
+      <background>background\The_FIelds_2</background>
+      <background>background\Goblin_Forest_3</background>
+      <background>background\Capital_4</background>
+      <background>background\Lumbria_5</background>
+      <background>background\Druid_Forest_6</background>
+      <background>background\Morche_7</background>
+      <background>background\Crypte_8</background>
+      <background>background\Goriot_Estate_9</background>
+      <background>background\Unfortunte_Forest_10</background>
+      <background>background\Morche_11</background>
+      <background>background\Great_Bridge_12</background>
+      <background>background\Cilabra_13</background>
+      <background>background\Necropolis_14</background>
+      <background>background\Abrian_Hill_15</background>
+      <background>background\Gates_16</background>
+      <background>background\CityofOrder_17</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts"/>
   <objects name="objects"/>
-  <rooms name="rooms">
-    <room>rooms\room2</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
